@@ -166,6 +166,19 @@ export default function () {
                 className="technology-logo"
               />
             </a>
+            <a
+              href="https://graphql.org/"
+              className="tech-link"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                src={graphQLLogo}
+                alt="GraphQL"
+                className="technology-logo"
+              />
+            </a>
+
           </div>
         </div>
         <div className="tech-group">
