@@ -17,9 +17,6 @@ function Contact() {
     <footer>
       <div className={`contact-container-${dayTime}`}>
         <div className="contact-buttons"></div>
-        <a href="#nav-menu">
-          <FontAwesomeIcon icon={faBars} className="arrow-down-scroller" />
-        </a>
         <address className="contact-buttons">
           <a href={URL_CV_ES} target="_blank">
             <p className="contact-button cv-p">Curriculum Vitae</p>
