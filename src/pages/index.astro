@@ -1,4 +1,10 @@
 ---
+import AboutMe from '../components/AboutMe';
+import Contact from '../components/Contact';
+import NavBar from '../components/NavBar';
+import RepositoriesList from '../components/RepositoriesList';
+import Technologies from '../components/Technologies';
+import '../index.css'
 ---
 
 <html lang="en">
@@ -7,9 +13,21 @@
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
+		<meta
+			name="description"
+			content="Gabriel Tettamanti || Portafolio digital"
+    	/>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300;1,400;1,500&display=swap" rel="stylesheet">
+		<title>Gabriel Tettamanti | Development</title>
+		<script src="https://kit.fontawesome.com/3a7b386195.js" crossorigin="anonymous"></script>
 	</head>
-	<body>
-		<h1>Astro</h1>
+	<body class="App">
+		<NavBar />
+		<AboutMe />
+		<Technologies />
+		<RepositoriesList />
+		<Contact />
 	</body>
 </html>

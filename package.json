@@ -11,20 +11,22 @@
   },
   "dependencies": {
     "@astrojs/react": "2.2.1",
-    "@types/react": "18.2.15",
-    "@types/react-dom": "18.2.7",
-    "astro": "2.8.2",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    
-    "react-router-dom": "6.4.4",
     "@fortawesome/fontawesome-svg-core": "6.2.0",
     "@fortawesome/free-brands-svg-icons": "6.2.0",
     "@fortawesome/free-regular-svg-icons": "6.2.0",
     "@fortawesome/free-solid-svg-icons": "6.2.0",
-    "@fortawesome/react-fontawesome": "0.2.0",
-    "aos": "2.3.4",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@vercel/analytics": "^0.1.6",
+    "astro": "2.8.2",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-router-dom": "6.4.4",
     "react-toastify": "9.1.1",
     "web-vitals": "2.1.4"
+  },
+  "devDependencies": {
+    "@types/node": "16.11.59",
+    "@types/react": "18.2.15",
+    "@types/react-dom": "18.2.7"
   }
 }

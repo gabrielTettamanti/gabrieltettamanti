@@ -1,0 +1,24 @@
+{
+  "es": {
+    "currentStackTitle": "Stack Actual",
+    "currentStackText": "Estas son las tecnologías que uso profesionalmente en el día a día. Son aquellas con las que tengo mayor experiencia y las que me parecen más idóneas para el desarrollo web en la actualidad.",
+
+    "interestingTechTitle": "Herramientas interesantes",
+    "interestingTechSubtitle": "learning is fun",
+    "interestingTechText": "Estas son tecnologías que me divierte usar e investigar en mi tiempo libre. Considero que algunas de ellas son el futuro del desarrollo de software y se van a ir viendo cada vez más en el corto plazo. Ofrecen enfoques innovadores y mayor rendimiento que ciertas tecnologías más usadas en la actualidad.",
+
+    "disuseTechTitle": "En desuso",
+    "disuseTechText": "Son tecnologías que dejé de usar en nuevos proyectos por preferencias personales o porque encuentro mejores opciones."
+  },
+  "en": {
+    "currentStackTitle": "Current Stack",
+    "currentStackText": "These are the technologies I use the most and I am more familiar with in my daily work and I think they are really suitable for the current web development.",
+
+    "interestingTechTitle": "Cool tools",
+    "interestingTechSubtitle": "learning is fun",
+    "interestingTechText": "I truly enjoy using and looking these technologies in my free time. I consider some of them to be the future of the software development and they will become more visible shortly. They offer innovative approaches and a performance which is better than the technologies more commonly used nowadays.",
+
+    "disuseTechTitle": "Less used",
+    "disuseTechText": "These are technologies I don't use in new projects due to personal preferences or because I found better options."
+  }
+}

@@ -1,0 +1,402 @@
+.about-me {
+  padding: 60px 0 0px 0;
+  min-height: 80vh;
+  background-color: #FCF7F8;
+  color: #000914;
+}
+.about-me .personal-description {
+  max-width: 1150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+}
+.about-me .personal-description .about-me-photo {
+  height: 250px;
+  width: 40%;
+  box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.about-me .personal-description .about-me-title {
+  font-size: 28px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.about-me .personal-description .about-me-title:before {
+  width: 50px;
+  height: 5px;
+  display: block;
+  content: "";
+  position: relative;
+  top: 47px;
+  background-color: #00fefc;
+  margin: auto;
+}
+.about-me .personal-description .about-me-title:after {
+  width: 70%;
+  height: 1px;
+  display: block;
+  content: "";
+  position: relative;
+  top: 10px;
+  background-color: #00fefc;
+  margin: auto;
+}
+.about-me .personal-description .about-me-text {
+  font-size: 18px;
+  width: 100%;
+  margin: 40px 25px;
+}
+.about-me .education {
+  max-width: 1150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  width: 90%;
+  margin: auto;
+  padding: 20px 0 0 0;
+}
+.about-me .education .education-title {
+  font-size: 28px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  width: 160px;
+  text-align: center;
+  white-space: nowrap;
+}
+.about-me .education .education-title:before {
+  background-color: #00fefc;
+  content: "";
+  display: block;
+  height: 3px;
+  width: 35%;
+  margin-bottom: 1px;
+  position: relative;
+  left: 65%;
+  bottom: 0;
+}
+.about-me .education .education-title:after {
+  background-color: #00fefc;
+  content: "";
+  display: block;
+  height: 3px;
+  margin-top: 1px;
+  width: 35%;
+}
+.about-me .education .courses-title {
+  font-size: 28px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  width: 160px;
+  text-align: center;
+  white-space: nowrap;
+}
+.about-me .education .courses-title:after {
+  background-color: #00fefc;
+  content: "";
+  display: block;
+  height: 3px;
+  width: 35%;
+  margin-bottom: 1px;
+  position: relative;
+  left: 65%;
+  bottom: 0;
+}
+.about-me .education .education-list {
+  width: 100%;
+  margin: 0 15px;
+}
+.about-me .education .education-list .education-list-item {
+  font-size: 18px;
+  padding: 20px 0px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: 2px solid #02223C;
+}
+.about-me .education .education-list .education-list-item .education-years {
+  font-weight: 600;
+  font-size: 24px;
+}
+.about-me .education .education-list .education-list-item .education-names {
+  width: 80%;
+}
+.about-me .education .education-list .education-list-item .education-names .education-institutions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 71px;
+}
+.about-me .education .education-list .education-list-item .education-names .education-institutions .education-name {
+  font-weight: 500;
+  font-size: 18px;
+}
+.about-me .education .education-list .education-list-item .education-names .education-institutions .education-logo {
+  max-height: 80px;
+  max-width: 200px;
+  margin: 10px 0px;
+}
+.about-me .education .education-list .education-list-item .education-names .education-institutions #dh-logo {
+  background-color: #000;
+  padding: 5px;
+  max-width: 200px;
+}
+.about-me .education .education-list .education-list-item .education-names .education-institutions #vue-school-logo {
+  background-color: #1d185e;
+  padding: 5px;
+  max-height: 30px;
+}
+.about-me .education .education-list .education-list-item .education-names .course-item {
+  flex-direction: row-reverse;
+  height: 50px;
+}
+.about-me .education .education-list .education-list-item .education-names .course-item .course-name {
+  font-size: 16px;
+  width: 60%;
+  text-align: left;
+}
+.about-me .education .education-list .education-list-item .education-names .course-item .course-logo {
+  margin: 0px 0px;
+}
+
+.langs-container {
+  padding: 20px 0 30px 0;
+  max-width: 1150px;
+  width: 90%;
+  margin: 0 auto;
+  text-align: left;
+  list-style: none;
+  border-bottom: 2px solid #02223C;
+}
+.langs-container .langs-title {
+  margin: 10px auto;
+  font-size: 28px;
+  text-transform: uppercase;
+  width: -moz-fit-content;
+  width: fit-content;
+  width: 160px;
+  text-align: center;
+}
+.langs-container .langs-title:before {
+  background-color: #00fefc;
+  border-radius: 0.25rem;
+  content: "";
+  display: block;
+  height: 3px;
+  width: 35%;
+  margin-bottom: 1px;
+}
+.langs-container .langs-list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.langs-container .langs-list-item .langs-name {
+  font-weight: 600;
+  font-size: 20px;
+}
+.langs-container .langs-list-item .bar {
+  width: 90%;
+  background-color: #EEE;
+  padding: 2px;
+  border-radius: 15px;
+  margin-bottom: 5px;
+  font-size: 16px;
+  color: #FFF;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  white-space: nowrap;
+  letter-spacing: 0.12em;
+}
+.langs-container .langs-list-item .bar::before {
+  content: attr(data-skill);
+  background-color: #f3b0ff;
+  display: inline-block;
+  padding: 5px 0 5px 10px;
+  border-radius: inherit;
+  animation: load 2s 0s;
+  -webkit-animation: load 2s 0s;
+  -moz-animation: load 2s 0s;
+  -o-animation: load 2s 0s;
+}
+.langs-container .langs-list-item .bar.front::before {
+  background-color: #ffcc33;
+}
+.langs-container .langs-list-item .bar.back::before {
+  background-color: #a6cfe3;
+}
+.langs-container .langs-list-item .bar.learning::before {
+  width: calc(14% - 10px);
+}
+.langs-container .langs-list-item .bar.basic::before {
+  width: calc(50% - 10px);
+}
+.langs-container .langs-list-item .bar.intermediate::before {
+  width: calc(70% - 10px);
+}
+.langs-container .langs-list-item .bar.advanced::before {
+  width: calc(80% - 10px);
+}
+.langs-container .langs-list-item .bar.expert::before {
+  width: calc(100% - 10px);
+}
+
+@keyframes load {
+  from {
+    width: 0%;
+  }
+}
+@media (max-width: 1024px) {
+  .about-me {
+    padding: 60px 0 125px 0;
+  }
+}
+@media (max-width: 600px) {
+  .about-me {
+    padding: 60px 0 100px 0;
+  }
+}
+@media (max-width: 880px) {
+  .about-me .personal-description .about-me-text {
+    width: 95%;
+  }
+  .about-me .education .education-list .education-list-item {
+    flex-direction: column;
+  }
+  .about-me .education .education-list .education-list-item .education-years {
+    font-weight: 500;
+    font-size: 24px;
+  }
+  .about-me .education .education-list .education-list-item .education-names {
+    width: 90%;
+  }
+  .about-me .education .education-list .education-list-item .education-names .education-institutions .education-name {
+    margin: 0 15px 0 0px;
+  }
+  .about-me .education .education-list .education-list-item .education-names .education-institutions .education-logo {
+    max-height: 80px;
+    max-width: 200px;
+    margin: 10px 0px;
+  }
+  .about-me .education .education-list .education-list-item .education-names .education-institutions #dh-logo {
+    background-color: #000;
+    padding: 5px;
+    max-width: 200px;
+  }
+  .langs-container .langs-title {
+    margin: 10px auto;
+    font-size: 28px;
+    text-transform: uppercase;
+    width: -moz-fit-content;
+    width: fit-content;
+    width: 160px;
+    text-align: center;
+  }
+  .langs-container .langs-list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  }
+  .langs-container .langs-list-item .langs-name {
+    margin: 0 0 5px 0;
+    font-weight: 500;
+  }
+  .langs-container .langs-list-item .bar {
+    width: 100%;
+  }
+}
+@media (max-width: 642px) {
+  .about-me .personal-description .about-me-photo {
+    display: none;
+  }
+  .about-me .personal-description .about-me-text {
+    font-size: 18px;
+    width: 100%;
+    margin: 25px 0px 0px 0px;
+  }
+  .langs-container .langs-list-item .bar {
+    font-size: 14px;
+  }
+}
+@media (max-width: 600px) {
+  .about-me .personal-description .about-me-title {
+    font-size: 22px;
+  }
+  .about-me .personal-description .about-me-title:before {
+    top: 40px;
+  }
+  .about-me .personal-description .about-me-text {
+    font-size: 14px;
+  }
+  .about-me .education .education-title {
+    font-size: 22px;
+  }
+  .about-me .education .education-list .education-list-item .education-years {
+    font-size: 20px;
+  }
+  .about-me .education .education-list .education-list-item .education-names .education-institutions .education-name {
+    font-size: 14px;
+  }
+  .about-me .education .education-list .education-list-item .education-names .education-institutions .education-logo {
+    max-height: 40px;
+    max-width: 160px;
+    margin: 0px;
+  }
+  .about-me .education .education-list .education-list-item .education-names .education-institutions #dh-logo {
+    background-color: #000;
+    padding: 5px;
+    max-width: 160px;
+  }
+  .about-me .education .education-list .education-list-item .education-names .course-item .course-name {
+    font-size: 13px;
+  }
+  .langs-container .langs-title {
+    font-size: 22px;
+  }
+  .langs-container .langs-list-item .langs-name {
+    font-size: 20px;
+  }
+  .langs-container .langs-list-item .bar {
+    font-size: 14px;
+  }
+  .langs-container .langs-list-item .bar.learning::before {
+    width: calc(30% - 10px);
+  }
+}
+@media (max-width: 420px) {
+  .about-me .personal-description .about-me-title {
+    font-size: 22px;
+  }
+  .about-me .personal-description .about-me-title:before {
+    top: 40px;
+  }
+  .about-me .personal-description .about-me-text {
+    font-size: 14px;
+  }
+  .about-me .education .education-title {
+    font-size: 22px;
+  }
+  .about-me .education .education-list .education-list-item .education-names {
+    width: 95%;
+  }
+  .about-me .education .education-list .education-list-item .education-names .education-institutions {
+    flex-direction: column;
+    height: -moz-fit-content;
+    height: fit-content;
+    margin: 20px;
+  }
+  .about-me .education .education-list .education-list-item .education-names .education-institutions .education-name {
+    margin: 0 0 5px 0;
+  }
+  .about-me .education .education-list .education-list-item .education-names .course-item {
+    flex-direction: row-reverse;
+    margin: 10px 0px;
+  }
+  .about-me .education .education-list .education-list-item .education-names .course-item .course-name {
+    margin: 0 0 0px 0;
+  }
+}/*# sourceMappingURL=styles.css.map */

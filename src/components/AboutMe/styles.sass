@@ -1,0 +1,374 @@
+$aqua: #00fefc
+$steel-pink: #D025B9
+$oxford-blue: #02223C
+$snow: #FCF7F8
+$rich-black-fogra-29: #000914
+
+.about-me
+    padding: 60px 0 0px 0
+    min-height: 80vh
+    background-color: $snow
+    color: $rich-black-fogra-29
+    .personal-description
+        max-width: 1150px
+        display: flex
+        justify-content: space-between
+        align-items: center
+        width: 90%
+        margin: auto
+        .about-me-photo
+            height: 250px
+            width: 40%
+            box-shadow: 0 10px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%)
+        .about-me-title
+            font-size: 28px
+            text-align: center
+            text-transform: uppercase
+        .about-me-title:before 
+            width: 50px
+            height: 5px
+            display: block
+            content: ""
+            position: relative
+            top: 47px
+            background-color: $aqua
+            margin: auto
+        .about-me-title:after 
+            width: 70%
+            height: 1px
+            display: block
+            content: ""
+            position: relative
+            top: 10px
+            background-color: $aqua
+            margin: auto
+        .about-me-text
+            font-size: 18px
+            width: 100%
+            margin: 40px 25px
+    .education
+        max-width: 1150px
+        display: flex
+        justify-content: space-between
+        align-items: center
+        flex-direction: column
+        width: 90%
+        margin: auto
+        padding: 20px 0 0 0
+        .education-title
+            font-size:28px
+            letter-spacing:1px
+            text-transform: uppercase
+            width:160px
+            text-align: center
+            margin:auto
+            white-space: nowrap
+        .education-title:before
+            background-color: $aqua
+            content: ''
+            display: block
+            height: 3px
+            width: 35%
+            margin-bottom: 1px
+            position: relative
+            left: 65%
+            bottom:0
+        .education-title:after 
+            background-color: $aqua
+            content: ''
+            display: block
+            height: 3px
+            margin-top: 1px
+            width: 35%
+        .courses-title
+            font-size:28px
+            letter-spacing:1px
+            text-transform: uppercase
+            width:160px
+            text-align: center
+            margin:auto
+            white-space: nowrap
+        .courses-title:after
+            background-color: $aqua
+            content: ''
+            display: block
+            height: 3px
+            width: 35%
+            margin-bottom: 1px
+            position: relative
+            left: 65%
+            bottom:0
+        .education-list
+            width: 100%
+            margin: 0 15px
+            .education-list-item
+                font-size: 18px
+                padding: 20px 0px
+                list-style: none
+                display: flex
+                justify-content: space-between
+                flex-direction: row
+                align-items: center
+                border-bottom: 2px solid $oxford-blue
+                .education-years
+                    font-weight: 600
+                    font-size: 24px
+                .education-names
+                    width: 80%
+                    .education-institutions
+                        display: flex
+                        justify-content: space-between
+                        align-items: center
+                        height: 71px
+                        .education-name
+                            font-weight: 500
+                            font-size: 18px
+                        .education-logo
+                            max-height: 80px
+                            max-width: 200px
+                            margin: 10px 0px
+                        #dh-logo
+                            background-color: #000
+                            padding: 5px
+                            max-width: 200px
+                        #vue-school-logo
+                            background-color: #1d185e
+                            padding: 5px
+                            max-height: 30px
+                    .course-item
+                        flex-direction: row-reverse
+                        height: 50px
+                        .course-name
+                            font-size: 16px
+                            width: 60%
+                            text-align: left
+                        .course-logo
+                            margin: 0px 0px
+.langs-container
+    padding: 20px 0 30px 0
+    max-width: 1150px
+    width: 90%
+    margin: 0 auto
+    text-align: left
+    list-style: none
+    border-bottom: 2px solid $oxford-blue
+    .langs-title
+        margin: 10px auto
+        font-size: 28px
+        text-transform: uppercase
+        width: fit-content
+        width:160px
+        text-align: center
+    .langs-title:before 
+        background-color: $aqua
+        border-radius: 0.25rem
+        content: ''
+        display: block
+        height: 3px
+        width: 35%
+        margin-bottom: 1px
+    .langs-list-item
+        display: flex
+        justify-content: space-between
+        align-items: center
+        .langs-name
+            font-weight: 600
+            font-size: 20px
+        .bar
+            width: 90%
+            background-color: #EEE
+            padding: 2px
+            border-radius: 15px
+            margin-bottom: 5px
+            font-size: 16px
+            color: #FFF
+            font-weight: bold
+            text-shadow: 1px 1px 1px rgba(0,0,0,0.5)
+            white-space: nowrap
+            letter-spacing: 0.12em
+        .bar::before
+            content:  attr(data-skill)
+            background-color: #f3b0ff
+            display: inline-block
+            padding: 5px 0 5px 10px
+            border-radius: inherit
+            animation: load 2s 0s
+            -webkit-animation: load 2s 0s
+            -moz-animation: load 2s 0s
+            -o-animation: load 2s 0s
+        .bar.front::before
+            background-color: #ffcc33
+        .bar.back::before
+            background-color: #a6cfe3
+        .bar.learning::before
+            width: calc(14% - 10px)
+        .bar.basic::before
+            width: calc(50% - 10px)
+        .bar.intermediate::before
+            width: calc(70% - 10px)
+        .bar.advanced::before
+            width: calc(80% - 10px)
+        .bar.expert::before
+            width: calc(100% - 10px)
+
+@keyframes load
+  from 
+    width: 0%
+@-webkit-keyframes load
+  from 
+    width: 0%
+@-moz-keyframes load
+  from 
+    width: 0%
+@-o-keyframes load
+  from 
+    width: 0%
+
+@media (max-width: 1024px)
+    .about-me
+        padding: 60px 0 125px 0
+
+@media (max-width: 600px)
+    .about-me
+        padding: 60px 0 100px 0
+
+@media (max-width: 880px)
+    .about-me
+        .personal-description
+            .about-me-photo
+            .about-me-title
+            .about-me-text
+                width: 95%
+        .education
+            .education-title
+            .education-list
+                .education-list-item
+                    flex-direction: column
+                    .education-years
+                        font-weight: 500
+                        font-size: 24px
+                    .education-names
+                        width: 90%
+                        .education-institutions
+                            .education-name
+                                margin: 0 15px 0 0px
+                            .education-logo
+                                max-height: 80px
+                                max-width: 200px
+                                margin: 10px 0px
+                            #dh-logo
+                                background-color: #000
+                                padding: 5px
+                                max-width: 200px
+    .langs-container
+        .langs-title
+            margin: 10px auto
+            font-size: 28px
+            text-transform: uppercase
+            width: fit-content
+            width:160px
+            text-align: center
+        .langs-list-item
+            display: flex
+            justify-content: space-between
+            align-items: center
+            flex-direction: column
+            .langs-name
+                margin: 0 0 5px 0
+                font-weight: 500
+            .bar
+                width: 100%
+
+@media (max-width: 642px)
+    .about-me
+        .personal-description
+            .about-me-photo
+                display: none
+            .about-me-title
+            .about-me-text
+                font-size: 18px
+                width: 100%
+                margin: 25px 0px 0px 0px
+    .langs-container
+        .langs-title
+        .langs-list-item
+            .langs-name
+            .bar
+                font-size: 14px
+
+@media (max-width: 600px)
+    .about-me
+        .personal-description
+            .about-me-photo
+            .about-me-title
+                font-size: 22px
+            .about-me-title:before
+                top: 40px
+            .about-me-text
+                font-size: 14px
+        .education
+            .education-title
+                font-size:22px
+            .education-list
+                .education-list-item
+                    .education-years
+                        font-size: 20px
+                    .education-names
+                        .education-institutions
+                            .education-name
+                                font-size: 14px
+                            .education-logo
+                                max-height: 40px
+                                max-width: 160px
+                                margin: 0px
+                            #dh-logo
+                                background-color: #000
+                                padding: 5px
+                                max-width: 160px
+                        .course-item
+                            .course-name
+                                font-size: 13px
+                            .course-logo
+    .langs-container
+        .langs-title
+            font-size: 22px
+        .langs-title:before
+        .langs-list-item
+            .langs-name
+                font-size: 20px
+            .bar
+                font-size: 14px
+            .bar.learning::before
+                width: calc(30% - 10px)
+
+@media (max-width: 420px)
+    .about-me
+        .personal-description
+            .about-me-photo
+            .about-me-title
+                font-size: 22px
+            .about-me-title:before
+                top: 40px
+            .about-me-text
+                font-size: 14px
+        .education
+            .education-title
+                font-size:22px
+            .education-list
+                    .education-list-item
+                        .education-years
+                        .education-names
+                            width: 95%
+                            .education-institutions
+                                flex-direction: column
+                                height: fit-content
+                                margin: 20px
+                                .education-name
+                                    margin: 0 0 5px 0
+                            .course-item
+                                flex-direction: row-reverse
+                                margin: 10px 0px
+                                .course-name
+                                    margin: 0 0 0px 0
+                                .course-logo
+                                    

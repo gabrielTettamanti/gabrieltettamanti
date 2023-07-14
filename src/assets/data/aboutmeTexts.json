@@ -1,0 +1,30 @@
+{
+  "es": {
+    "aboutmeTextFirstPart": "Soy un emprendedor de ",
+    "aboutmeTextSecondPart": " años. Apasionado por los nuevos proyectos y el trabajo en equipo para afrontar los desafíos. Tengo experiencia como product owner, scrum master y desarrollador; organizando equipos, creando estrategias y desarrollando aplicaciones a todo nivel (back end y front end). Soy ingenioso, cooperativo y previsor, comprometido con el aprendizaje y la mejora personal continua, con buen ojo para el diseño y la creación de ámbitos positivos de trabajo.",
+
+    "studies": "Estudios",
+
+    "languages": "Idiomas",
+    "spanish": "Español",
+    "english": "Inglés",
+    "german": "Alemán",
+    "japanese": "Japonés",
+
+    "courses": "Cursos"
+  },
+  "en": {
+    "aboutmeTextFirstPart": "I am a ",
+    "aboutmeTextSecondPart": "-year-old entrepreneur. I love new challenges and teamwork to face them. I have experience being a product owner, a scrum master and a developer; organizing teams, creating strategies and developing full-stack applications (front-end, back-end and DB). I am clever, cooperative and forecaster, committed to learning and self improvement processes, with a keen eye on design and creatting good work environment.",
+
+    "studies": "Degrees",
+
+    "languages": "Languages",
+    "spanish": "Spanish",
+    "english": "English",
+    "german": "German",
+    "japanese": "Japanese",
+
+    "courses": "Courses"
+  }
+}

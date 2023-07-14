@@ -1,0 +1,168 @@
+$aqua: #00fefc
+$steel-pink: #D025B9
+$oxford-blue: #02223C
+$snow: #FCF7F8
+$rich-black-fogra-29: #000914
+
+$roboto: 'Roboto', sans-serif
+
+@mixin background-aqua-hover
+    transition: 0.5s
+    &:hover
+        background-color: $aqua
+@mixin background-pink-hover
+    transition: 0.5s
+    &:hover
+        background-color: $steel-pink
+
+.background-header-filling
+    height: 8vh
+    min-height: 49px
+    width: 100vw
+    border-bottom: 5px solid white
+    
+.nav-bar-container-white-theme
+    position: fixed
+    z-index: 100
+    width: 100%
+    height: 8vh
+    min-height: 49px
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+    align-items: center
+    border-bottom: 5px solid $aqua
+    box-shadow: 0 10px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%)
+    background-color: $snow
+    .title-nav-bar
+        font-family: $roboto
+        color: $oxford-blue
+        font-size: 35px
+        font-weight: 500
+        margin: 0px 0px 0px 40px
+    .lang-switch
+        margin: 0 40px 0 0
+        width: 100px
+        display: flex
+        justify-content: space-between
+        .lang-switch-button
+            background: none
+            border: none
+            .lang-switch-button-flag
+                height: 5vh
+                max-height: 47px
+                border-radius: 50px
+                transition: 0.5s
+                filter: grayscale(5%)
+                &:hover
+                    cursor: pointer
+                    filter: grayscale(0%)
+                    box-shadow: 0 10px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%)
+        .button-selected
+            pointer-events: none
+            .active
+                filter: grayscale(100%)
+                &:hover
+                    cursor: default
+                    filter: grayscale(100%)
+                    box-shadow: none
+                
+
+.nav-bar-container-dark-theme
+    position: fixed
+    z-index: 100
+    width: 100%
+    height: 8vh
+    min-height: 49px
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+    align-items: center
+    border-bottom: 5px solid $steel-pink
+    box-shadow: 0 10px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%)
+    background-color: $rich-black-fogra-29
+    .title-nav-bar
+        font-family: $roboto
+        font-size: 35px
+        font-weight: 500
+        margin: 0px 0px 0px 40px
+        color: $snow
+    .lang-switch
+        margin: 0 40px 0 0
+        width: 100px
+        display: flex
+        justify-content: space-between
+        .lang-switch-button
+            background: none
+            border: none
+            .lang-switch-button-flag
+                height: 5vh
+                max-height: 47px
+                border-radius: 50px
+                transition: 0.5s
+                filter: grayscale(5%)
+                &:hover
+                    cursor: pointer
+                    filter: grayscale(0%)
+                    box-shadow: 0 10px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%)
+        .button-selected
+            pointer-events: none
+            .active
+                filter: grayscale(100%)
+                &:hover
+                    cursor: default
+                    filter: grayscale(100%)
+                    box-shadow: none
+
+@media (max-width: 768px)
+    .background-header-filling
+        height: 7vh
+    .nav-bar-container-white-theme
+        height: 7vh
+        .title-nav-bar
+            font-size: 28px
+    .nav-bar-container-dark-theme
+        height: 7vh
+        .title-nav-bar
+            font-size: 28px
+@media (max-width: 480px)
+    .nav-bar-container-white-theme
+        .title-nav-bar
+            font-size: 26px
+            margin: 0px 0px 0px 10px
+        .lang-switch
+            margin: 0 10px 0 0
+    .nav-bar-container-dark-theme
+        .title-nav-bar
+            font-size: 26px
+            margin: 0px 0px 0px 10px
+        .lang-switch
+            margin: 0 10px 0 0
+@media (max-width: 373px)
+    .nav-bar-container-white-theme
+        .title-nav-bar
+            font-size: 20px
+            margin: 0px 0px 0px 5px
+        .lang-switch
+            width: 75px
+            margin: 0 5px 0 0
+            .lang-switch-button
+                .lang-switch-button-flag
+                    max-height: 35px
+    .nav-bar-container-dark-theme
+        .title-nav-bar
+            font-size: 20px
+            margin: 0px 0px 0px 5px
+        .lang-switch
+            width: 75px
+            margin: 0 5px 0 0
+            .lang-switch-button
+                .lang-switch-button-flag
+                    max-height: 35px
+@media (max-height: 450px)
+    .background-header-filling
+        display: none
+    .nav-bar-container-white-theme
+        position: static
+    .nav-bar-container-dark-theme
+        position: static

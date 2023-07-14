@@ -1,0 +1,24 @@
+{
+  "es": {
+    "welcomeQuestion": "¿Para qué programamos? ",
+    "welcomeAnswer": "Lo hacemos para resolver problemas cotidianos, facilitando la vida de la gente mediante soluciones innovadoras, buscando una transformación tecnológica del día a día.",
+
+    "navbarProjects": "Proyectos",
+    "navbarTechnologies": "Tecnologías",
+    "navbarAboutme": "Sobre mi",
+
+    "repositoriesListTitle": "Desarrollos y código abierto",
+    "experimentsSubtitle": "Web is fun"
+  },
+  "en": {
+    "welcomeQuestion": "Why do we program? ",
+    "welcomeAnswer": "We do it to solve everyday problems, making people's lives easier by using innovative solutions, seeking a technological transformation in our everyday life.",
+
+    "navbarProjects": "Projects",
+    "navbarTechnologies": "Technologies",
+    "navbarAboutme": "About me",
+
+    "repositoriesListTitle": "Developments and open source",
+    "experimentsSubtitle": "Web is fun"
+  }
+}

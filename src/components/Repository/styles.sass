@@ -1,0 +1,150 @@
+$aqua: #00fefc
+$steel-pink: #D025B9
+$oxford-blue: #02223C
+$snow: #FCF7F8
+$rich-black-fogra-29: #000914
+
+.unclickable
+    cursor: default
+.clickable
+    cursor: pointer
+.repository
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+    align-items: center
+    width: 90%
+    max-width: 1150px
+    margin: auto
+    padding: 50px 40px
+    border-bottom: 2px solid $oxford-blue
+    transition: 0.5s
+    &:hover
+        box-shadow: 0 10px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%)
+    .repository-view
+        height: auto
+        width: 40%
+        box-shadow: 0 10px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%)
+    .repository-info
+        display: flex
+        flex-direction: column
+        justify-content: flex-start
+        align-items: center
+        .repository-title
+            font-size: 28px
+        .repository-detail
+            font-size: 18px
+            width: 90%
+            margin: 5px 5px 15px 5px
+        .repository-technologies-title
+            font-size: 18px
+        .repository-technologies-container
+            display: flex
+            justify-content: center
+            align-items: center
+            flex-wrap: wrap
+            width: 80%
+            .repository-technology
+                max-height: 40px
+                margin: 5px 10px
+
+.repository-menu-unactive
+    position: absolute
+    scale: 0
+    opacity: 0
+    .repository-menu-button
+        scale: 0
+        opacity: 0
+.repository-menu
+    background: radial-gradient(#00091490 25%, #00091400 60%)
+    // background: radial-gradient(25% 50%,  #00091490, #00091400)
+    position: absolute
+    display: flex
+    justify-content: center
+    align-items: center
+    width: 100%
+    left: 0px
+    min-width: 300px
+    height: 300px
+    scale: 1
+    opacity: 1
+    .repository-menu-button
+        scale: 1
+        opacity: 1
+        display: flex
+        justify-content: center
+        align-items: center
+        margin: 10px
+        background-color: $snow
+        cursor: pointer
+        height: 50px
+        width: 50px
+        border-radius: 50px
+        border: solid 5px $aqua
+        transition: .5s
+        color: $rich-black-fogra-29
+        &:hover
+            animation-name: beat
+            animation-duration: 1500ms
+            animation-iteration-count: infinite
+            animation-timing-function: linear
+            border: solid 5px $steel-pink
+            box-shadow: 0 10px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%)
+    .no-url
+        border-color: gray
+        color: gray
+        cursor: not-allowed
+        pointer-events: none
+        &:hover
+            animation: none
+    #repository-menu-yt
+        font-size: 32px
+    #repository-menu-desktop
+        font-size: 27px
+    #repository-menu-github
+        font-size: 34px
+    #repository-menu-xmark
+        font-size: 32px
+
+
+@keyframes beat
+    0%, 50%, 100%
+        transform: scale(1, 1)
+    30%, 80%
+        transform: scale(1.18, 1.15)
+
+@media (max-width: 768px)
+    .repository
+        flex-direction: column-reverse
+        &:hover
+            box-shadow: none
+        .repository-view
+            height: auto
+            width: 90%
+            margin: 15px 0 0 0
+        .repository-info
+            .repository-title
+            .repository-detail
+                width: 100%
+                margin: 10px 0px 20px 0px
+            .repository-technologies-title
+                margin: 0px 0px 10px 0px
+            .repository-technologies-container
+                width: 100%
+
+@media (max-width: 600px)
+    .repository
+        width: 90%
+        padding: 15px 0px 30px 0px
+        .repository-view
+        .repository-info
+            .repository-title
+                font-size: 22px
+            .repository-detail
+                font-size: 14px
+            .repository-technologies-title
+                font-size: 18px
+            .repository-technologies-container
+                .repository-technology
+                    max-height: 30px
+                    margin: 5px 5px
