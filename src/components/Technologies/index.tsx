@@ -36,9 +36,6 @@ export default function () {
         <h2 className="tech-section-title">
           {text.es.currentStackTitle}
         </h2>
-        <p className="tech-section-text">
-          {text.es.currentStackText}
-        </p>
         <div className="tech-group">
           <h3 className="tech-name">Languages</h3>
           <div
@@ -230,9 +227,6 @@ export default function () {
             {text.es.interestingTechSubtitle}
           </span>
         </h2>
-        <p className="tech-section-text">
-          {text.es.interestingTechText}
-        </p>
         <div className="tech-group">
           <h3 className="tech-name">Front-end</h3>
           <div
