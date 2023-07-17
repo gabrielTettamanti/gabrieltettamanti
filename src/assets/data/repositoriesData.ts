@@ -12,14 +12,12 @@ import expressLogo from '../../assets/images/tecnologies/backend/express.png'
 import MySQLLogo from '../../assets/images/tecnologies/database/mysql.webp'
 import MongoDBLogo from '../../assets/images/tecnologies/database/mongodb.png'
 import BootstrapLogo from "../../assets/images/tecnologies/styles/bootstrap.webp";
-import TailwindLogo from "../../assets/images/tecnologies/styles/tailwind.png";
 import GitLogo from '../../assets/images/tecnologies/tools/git.png'
 import ViteLogo from '../../assets/images/tecnologies/tools/vite.png'
 import WebpackLogo from '../../assets/images/tecnologies/tools/webpack.png'
 import SassLogo from '../../assets/images/tecnologies/tools/sass.png'
 import threeJSLogo from "../../assets/images/tecnologies/tools/threejs.png";
 
-import MyPortfolio from '../../assets/images/repos/myportfolio.png'
 import MuseoPaleontologico from '../../assets/images/repos/museopaleontologico.png'
 import GoodTrail from '../../assets/images/repos/goodtrail.png'
 import MyMovieSite from "../../assets/images/repos/mymoviesite.png";
@@ -39,16 +37,6 @@ import CalculatorPy from "../../assets/images/repos/pythoncalculator.png";
 import VueClickCounter from "../../assets/images/repos/vueclickcounter.png";
 
 const repositoriesData = [
-  {
-    title: "Mi portafolio digital",
-    description:
-      "Esta web está desarrollada con el objetivo de ser una extensión a mi curriculum vitae. Donde muestro desarrollos y experimentos que he hecho, tecnologías que uso y una breve descripción de mi persona. Cuenta con un ciclo de día y noche que cambia el tema de la web a las 7am y 7pm.",
-    technologies: [reactLogo, tsLogo, htmlLogo, SassLogo, cssLogo, GitLogo],
-    url: "https://youtu.be/xbJ6qDkmYC4",
-    github: "https://github.com/gabrielTettamanti/gabrieltettamanti",
-    desktop: "https://gabrieltettamanti.vercel.app/",
-    img: MyPortfolio,
-  },
   {
     title: "GoodTrail",
     description:
