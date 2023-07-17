@@ -17,7 +17,8 @@ html {
   }
   
   .App {
-  background: url("./assets/images/trianglify-lowres.png") no-repeat center center fixed; 
+  background: rgb(0,9,20);
+  background: linear-gradient(180deg, rgba(0,9,20,1) 0%, rgba(5,69,121,1) 50%, rgba(0,9,20,1) 100%) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
