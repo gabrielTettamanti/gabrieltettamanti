@@ -80,7 +80,6 @@
   width: 80%;
 }
 .about-me .education .education-list .education-list-item .education-names .education-institutions {
-  padding: 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -94,7 +93,6 @@
   max-height: 80px;
   max-width: 200px;
   margin: 10px 0px;
-  padding: 10px;
 }
 .about-me .education .education-list .education-list-item .education-names .education-institutions #dh-logo {
   background-color: #000;
