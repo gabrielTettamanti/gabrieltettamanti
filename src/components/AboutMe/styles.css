@@ -81,7 +81,6 @@
 }
 .about-me .education .education-list .education-list-item .education-names .education-institutions {
   padding: 10px;
-  background-color: rgba(252, 247, 248, 0.1725490196);
   display: flex;
   justify-content: space-between;
   align-items: center;
