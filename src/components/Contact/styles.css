@@ -18,18 +18,7 @@
   align-items: center;
   border-top: 5px solid #00fefc;
   box-shadow: 10px 0 16px 0 rgba(0, 0, 0, 0.2), 6px 0 20px 0 rgba(0, 0, 0, 0.19);
-  background-color: #FCF7F8;
-}
-.contact-container .arrow-down-scroller {
-  padding: 5.14px 9px;
-  font-size: 30px;
-  border-radius: 20px;
-  transition: 0.5s;
-}
-.contact-container .arrow-down-scroller:hover {
-  color: #FCF7F8;
-  background-color: #02223C;
-  box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: #000914;
 }
 .contact-container .contact-buttons {
   display: flex;
@@ -37,22 +26,22 @@
   justify-content: space-between;
   align-items: center;
   margin: 0px 40px 0px 0px;
-  background-color: #FCF7F8;
+  background-color: #000914;
   width: 35%;
   max-width: 576px;
 }
 .contact-container .contact-buttons .contact-button {
   margin: 0px 0px 0px 0px;
   font-size: 20px;
-  color: #02223C;
+  color: #FCF7F8;
   padding: 6px;
   border-radius: 30px;
   cursor: pointer;
   transition: 0.5s;
 }
 .contact-container .contact-buttons .contact-button:hover {
-  color: #FCF7F8;
-  background-color: #02223C;
+  color: #000914;
+  background-color: #00fefc;
   box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .contact-container .contact-buttons .contact-icon {

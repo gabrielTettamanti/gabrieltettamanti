@@ -9,24 +9,8 @@ $roboto: 'Roboto', sans-serif
 @mixin background-snow-hover
     transition: 0.5s
     &:hover
-        color: $snow
-        background-color: $oxford-blue
-        box-shadow: 0 10px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%)
-@mixin background-pink-hover
-    transition: 0.5s
-    &:hover
         color: $rich-black-fogra-29
-        background-color: $snow
-        box-shadow: 0 10px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%)
-@mixin background-aqua-hover
-    transition: 0.5s
-    &:hover
         background-color: $aqua
-        box-shadow: 0 10px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%)
-@mixin background-pink-hover
-    transition: 0.5s
-    &:hover
-        background-color: $steel-pink
         box-shadow: 0 10px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%)
                 
 .background-footer-filling
@@ -48,25 +32,20 @@ $roboto: 'Roboto', sans-serif
     align-items: center
     border-top: 5px solid $aqua
     box-shadow: 10px 0 16px 0 rgb(0 0 0 / 20%), 6px 0 20px 0 rgb(0 0 0 / 19%)
-    background-color: $snow
-    .arrow-down-scroller
-        padding: 5.14px 9px
-        font-size: 30px
-        border-radius: 20px
-        @include background-snow-hover
+    background-color: $rich-black-fogra-29
     .contact-buttons
         display: flex
         flex-direction: row
         justify-content: space-between
         align-items: center
         margin: 0px 40px 0px 0px
-        background-color: $snow
+        background-color: $rich-black-fogra-29
         width: 35%
         max-width: 576px
         .contact-button
             margin: 0px 0px 0px 0px
             font-size: 20px
-            color: $oxford-blue
+            color: $snow
             padding: 6px
             border-radius: 30px
             cursor: pointer
