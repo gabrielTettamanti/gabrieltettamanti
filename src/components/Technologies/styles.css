@@ -50,7 +50,6 @@
   margin: 15px;
   padding: 0.5px;
   border: solid 4px rgba(0, 0, 0, 0);
-  filter: drop-shadow(5px 5px 5px #222);
   border-radius: 10px;
   transition: 0.5s;
   display: flex;
