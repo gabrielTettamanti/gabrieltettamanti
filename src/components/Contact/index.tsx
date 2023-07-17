@@ -3,7 +3,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope, faBars } from "@fortawesome/free-solid-svg-icons";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import "./styles.css";
-import useTime from "../hooks/useTime";
 import { ToastContainer, toast } from "react-toastify";
 
 import "react-toastify/dist/ReactToastify.css";
@@ -11,11 +10,9 @@ import "react-toastify/dist/ReactToastify.css";
 function Contact() {
   const URL_CV_ES = "https://drive.google.com/file/d/1uSBbpskdNQ5OAOfc6jy-LIfbZSZvLQ61/view?usp=sharing";
 
-  const dayTime = useTime();
-
   return (
     <footer>
-      <div className={`contact-container-${dayTime}`}>
+      <div className="contact-container">
         <div className="contact-buttons"></div>
         <address className="contact-buttons">
           <a href={URL_CV_ES} target="_blank">

@@ -4,8 +4,7 @@
   min-height: 80vh;
 }
 .repositories-list .repositories-list-title {
-  font-size: 48px;
-  padding: 40px 0 0 0;
+  font-size: 24px;
   width: 95%;
   max-width: 1200px;
   margin: auto;
@@ -35,7 +34,7 @@
 }
 .repositories-list #experiments-title span {
   margin-top: 5px;
-  font-size: 15px;
+  font-size: 12px;
   color: #444;
   word-spacing: 1px;
   letter-spacing: 2px;
@@ -56,16 +55,8 @@
   background-color: #FCF7F8;
 }
 
-@media (max-width: 1024px) {
-  .repositories-list {
-    padding: 0 0 125px 0;
-  }
-}
 @media (max-width: 600px) {
-  .repositories-list {
-    padding: 0 0 100px 0;
-  }
   .repositories-list .repositories-list-title {
-    font-size: 28px;
+    font-size: 20px;
   }
 }/*# sourceMappingURL=styles.css.map */

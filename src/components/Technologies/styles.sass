@@ -5,13 +5,12 @@ $snow: #FCF7F8
 $rich-black-fogra-29: #000914
 
 .technologies-container
-    min-height: 80.3vh
 .technologies
     background-color: $snow
     color: $rich-black-fogra-29
-    padding: 40px 0
+    padding: 0 0 20px 0
     .tech-section-title
-        font-size: 48px
+        font-size: 24px
         padding: 40px 0 0 0
         width: 95%
         max-width: 1200px
@@ -28,7 +27,6 @@ $rich-black-fogra-29: #000914
     .tech-section-second-title
         padding: 0px 0 0 0
     .tech-section-text
-        font-size: 18px
         letter-spacing: 0.7px
         width: 80%
         max-width: 1080px
@@ -44,14 +42,14 @@ $rich-black-fogra-29: #000914
         width: 90%
         margin: auto
         max-width: 1150px
-        padding: 5px 40px
+        padding: 0 40px
         border-bottom: 2px solid $oxford-blue
         display: flex
         flex-direction: row
         justify-content: space-between
         align-items: center
         .tech-name
-            font-size: 1.5rem
+            font-size: 1rem
         .logos-group
             display: flex
             align-items: center
@@ -60,7 +58,7 @@ $rich-black-fogra-29: #000914
             justify-content: flex-end
             .tech-link
                 margin: 15px
-                padding: 4px
+                padding: .5px
                 border: solid 4px $snow
                 border-radius: 10px
                 transition: 0.5s
@@ -71,70 +69,23 @@ $rich-black-fogra-29: #000914
                     border: solid 4px $aqua
                     box-shadow: 0 10px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%)
                 .technology-logo
-                    max-height: 2rem
+                    max-height: 1.5rem
                     max-width: 5rem
-.second-technologies
-    padding: 0px 0
-    #tech-section-second-title
-        font-size: 48px
-        width: 95%
-        max-width: 1200px
-        margin: auto
-        text-align:center
-        text-transform:uppercase
-        letter-spacing:1px
-        font-weight:300
-        span
-            margin-top: 5px
-            font-size:15px
-            color:#444
-            word-spacing:1px
-            font-weight:normal
-            letter-spacing:2px
-            text-transform: uppercase
-            font-weight:500
-            display: grid
-            grid-template-columns: 1fr max-content 1fr
-            grid-template-rows: 27px 0
-            grid-gap: 20px
-            align-items: center
-        span:after, span:before
-            content: " "
-            display: block
-            border-bottom: 1px solid $aqua
-            border-top: 1px solid $aqua
-            height: 5px
-            background-color:$snow
-
-@media (max-width: 1024px)
-    .technologies-container
-        padding: 0 0 125px 0
 
 @media (max-width: 600px)
     .technologies-container
-        padding: 0 0 100px 0
     .technologies
         .tech-section-title
-            font-size: 28px
             padding: 20px 0 0 0
-        .tech-section-text
-            font-size: 14px
-            width: 90%
-            margin: 0px auto 10px auto
+            font-size: 20px
         .tech-group
             margin: auto
             padding: 0px 0px
             border-bottom: 1px solid $oxford-blue
             flex-direction: column
             .tech-name
-                font-size: 1.3rem
                 font-weight: 500
                 margin: 5px 0 0px 0
             .logos-group
                 justify-content: center
                 .technology-logo
-    .second-technologies
-        #tech-section-second-title
-            font-size: 28px
-            span
-                font-size: 12px

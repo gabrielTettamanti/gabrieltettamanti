@@ -1,0 +1,43 @@
+.personal-description {
+  max-width: 1150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+}
+.personal-description .about-me-photo {
+  height: 250px;
+  width: 40%;
+  box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.personal-description .about-me-title {
+  font-size: 28px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.personal-description .about-me-title:before {
+  width: 50px;
+  height: 5px;
+  display: block;
+  content: "";
+  position: relative;
+  top: 47px;
+  background-color: #00fefc;
+  margin: auto;
+}
+.personal-description .about-me-title:after {
+  width: 70%;
+  height: 1px;
+  display: block;
+  content: "";
+  position: relative;
+  top: 10px;
+  background-color: #00fefc;
+  margin: auto;
+}
+.personal-description .about-me-text {
+  font-size: 18px;
+  width: 100%;
+  margin: 40px 25px;
+}/*# sourceMappingURL=styles.css.map */

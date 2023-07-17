@@ -18,21 +18,6 @@ export default () => {
 
   return (
     <section className="about-me">
-      <div className="personal-description">
-        <img
-          src={myPhoto}
-          alt=""
-          className="about-me-photo"
-        />
-        <div>
-          <h2 className="about-me-title">Full-Stack Developer</h2>
-          <p className="about-me-text">
-            {text.es.aboutmeTextFirstPart +
-                myCurrentAge +
-                text.es.aboutmeTextSecondPart}
-          </p>
-        </div>
-      </div>
       <div className="education">
         <h3 className="education-title">
           {text.es.studies}

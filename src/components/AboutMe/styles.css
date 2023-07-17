@@ -1,51 +1,7 @@
 .about-me {
-  padding: 60px 0 0px 0;
-  min-height: 80vh;
+  padding: 5vh 0 0px 0;
   background-color: #FCF7F8;
   color: #000914;
-}
-.about-me .personal-description {
-  max-width: 1150px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 90%;
-  margin: auto;
-}
-.about-me .personal-description .about-me-photo {
-  height: 250px;
-  width: 40%;
-  box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-.about-me .personal-description .about-me-title {
-  font-size: 28px;
-  text-align: center;
-  text-transform: uppercase;
-}
-.about-me .personal-description .about-me-title:before {
-  width: 50px;
-  height: 5px;
-  display: block;
-  content: "";
-  position: relative;
-  top: 47px;
-  background-color: #00fefc;
-  margin: auto;
-}
-.about-me .personal-description .about-me-title:after {
-  width: 70%;
-  height: 1px;
-  display: block;
-  content: "";
-  position: relative;
-  top: 10px;
-  background-color: #00fefc;
-  margin: auto;
-}
-.about-me .personal-description .about-me-text {
-  font-size: 18px;
-  width: 100%;
-  margin: 40px 25px;
 }
 .about-me .education {
   max-width: 1150px;
@@ -247,16 +203,6 @@
 @keyframes load {
   from {
     width: 0%;
-  }
-}
-@media (max-width: 1024px) {
-  .about-me {
-    padding: 60px 0 125px 0;
-  }
-}
-@media (max-width: 600px) {
-  .about-me {
-    padding: 60px 0 100px 0;
   }
 }
 @media (max-width: 880px) {

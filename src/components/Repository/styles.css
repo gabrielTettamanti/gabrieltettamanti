@@ -14,7 +14,7 @@
   width: 90%;
   max-width: 1150px;
   margin: auto;
-  padding: 50px 40px;
+  padding: 10px 40px;
   border-bottom: 2px solid #02223C;
   transition: 0.5s;
 }
@@ -33,15 +33,15 @@
   align-items: center;
 }
 .repository .repository-info .repository-title {
-  font-size: 28px;
+  font-size: 20px;
 }
 .repository .repository-info .repository-detail {
-  font-size: 18px;
+  font-size: 14px;
   width: 90%;
   margin: 5px 5px 15px 5px;
 }
 .repository .repository-info .repository-technologies-title {
-  font-size: 18px;
+  font-size: 16px;
 }
 .repository .repository-info .repository-technologies-container {
   display: flex;
@@ -51,77 +51,8 @@
   width: 80%;
 }
 .repository .repository-info .repository-technologies-container .repository-technology {
-  max-height: 40px;
+  max-height: 25px;
   margin: 5px 10px;
-}
-
-.repository-menu-unactive {
-  position: absolute;
-  scale: 0;
-  opacity: 0;
-}
-.repository-menu-unactive .repository-menu-button {
-  scale: 0;
-  opacity: 0;
-}
-
-.repository-menu {
-  background: radial-gradient(rgba(0, 9, 20, 0.5647058824) 25%, rgba(0, 9, 20, 0) 60%);
-  position: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  left: 0px;
-  min-width: 300px;
-  height: 300px;
-  scale: 1;
-  opacity: 1;
-}
-.repository-menu .repository-menu-button {
-  scale: 1;
-  opacity: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 10px;
-  background-color: #FCF7F8;
-  cursor: pointer;
-  height: 50px;
-  width: 50px;
-  border-radius: 50px;
-  border: solid 5px #00fefc;
-  transition: 0.5s;
-  color: #000914;
-}
-.repository-menu .repository-menu-button:hover {
-  animation-name: beat;
-  animation-duration: 1500ms;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-  border: solid 5px #D025B9;
-  box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-.repository-menu .no-url {
-  border-color: gray;
-  color: gray;
-  cursor: not-allowed;
-  pointer-events: none;
-}
-.repository-menu .no-url:hover {
-  animation: none;
-}
-.repository-menu #repository-menu-yt {
-  font-size: 32px;
-}
-.repository-menu #repository-menu-desktop {
-  font-size: 27px;
-}
-.repository-menu #repository-menu-github {
-  font-size: 34px;
-}
-.repository-menu #repository-menu-xmark {
-  font-size: 32px;
 }
 
 @keyframes beat {
@@ -170,7 +101,7 @@
     font-size: 18px;
   }
   .repository .repository-info .repository-technologies-container .repository-technology {
-    max-height: 30px;
+    max-height: 20px;
     margin: 5px 5px;
   }
 }/*# sourceMappingURL=styles.css.map */

@@ -1,19 +1,17 @@
 import './styles.css'
-import useTime from "../hooks/useTime";
 import { inject } from '@vercel/analytics';
 
 import ukFlag from "./../../assets/images/uk.png";
 import spanishFlag from "./../../assets/images/spanish.png";
 
 function NavBar() {
-  const dayTime = useTime()
   inject();
   const setLang = (lang: string) => {
     console.log(lang)
   }
     return (
       <header>
-        <nav className={`nav-bar-container-${dayTime}`}>
+        <nav className="nav-bar-container">
           <div>
             <h1 className="title-nav-bar">Gabriel Tettamanti</h1>
           </div>
