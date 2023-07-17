@@ -1,7 +1,6 @@
 .about-me {
   padding: 5vh 0 0px 0;
-  background-color: #FCF7F8;
-  color: #000914;
+  color: #FCF7F8;
 }
 .about-me .education {
   max-width: 1150px;
@@ -81,6 +80,8 @@
   width: 80%;
 }
 .about-me .education .education-list .education-list-item .education-names .education-institutions {
+  padding: 10px;
+  background-color: rgba(252, 247, 248, 0.1725490196);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -94,6 +95,7 @@
   max-height: 80px;
   max-width: 200px;
   margin: 10px 0px;
+  padding: 10px;
 }
 .about-me .education .education-list .education-list-item .education-names .education-institutions #dh-logo {
   background-color: #000;
@@ -156,14 +158,13 @@
 }
 .langs-container .langs-list-item .bar {
   width: 90%;
-  background-color: #EEE;
+  background-color: rgba(252, 247, 248, 0.2901960784);
   padding: 2px;
   border-radius: 15px;
   margin-bottom: 5px;
   font-size: 16px;
-  color: #FFF;
+  color: #000914;
   font-weight: bold;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
   white-space: nowrap;
   letter-spacing: 0.12em;
 }

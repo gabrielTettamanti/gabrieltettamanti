@@ -17,6 +17,7 @@
   padding: 10px 40px;
   border-bottom: 2px solid #02223C;
   transition: 0.5s;
+  color: #FCF7F8;
 }
 .repository:hover {
   box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -42,6 +43,8 @@
 }
 .repository .repository-info .repository-technologies-title {
   font-size: 16px;
+  width: 80%;
+  background-color: rgba(252, 247, 248, 0.1725490196);
 }
 .repository .repository-info .repository-technologies-container {
   display: flex;
@@ -49,6 +52,7 @@
   align-items: center;
   flex-wrap: wrap;
   width: 80%;
+  background-color: rgba(252, 247, 248, 0.1725490196);
 }
 .repository .repository-info .repository-technologies-container .repository-technology {
   max-height: 25px;

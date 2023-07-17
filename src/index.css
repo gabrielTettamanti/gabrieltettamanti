@@ -9,19 +9,19 @@
 
 html {
     scroll-behavior: smooth;
-}
+  }
   
-a {
-  color: #000;
-  text-decoration: none;
-}
-
-.App {
+  a {
+    color: #000;
+    text-decoration: none;
+  }
+  
+  .App {
+  background: url("./assets/images/trianglify-lowres.png") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;;
   width: 100%;
   text-align: center;
-  background-color: #FCF7F8;
 }
-
-/* body::-webkit-scrollbar {
-  width: 0em;
-} */
