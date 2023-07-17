@@ -6,12 +6,8 @@ import pyLogo from "../../assets/images/tecnologies/languages/python.png";
 import cssLogo from "../../assets/images/tecnologies/languages/css.png";
 import htmlLogo from "../../assets/images/tecnologies/languages/html.png";
 import nextLogo from "../../assets/images/tecnologies/frontend/next.png";
-import solidLogo from "../../assets/images/tecnologies/frontend/solid.png";
 import reactLogo from "../../assets/images/tecnologies/frontend/react.png";
-import nuxtLogo from "../../assets/images/tecnologies/frontend/nuxt.png";
-import vueLogo from "../../assets/images/tecnologies/frontend/vue.png";
-import svelteLogo from "../../assets/images/tecnologies/frontend/svelte.png";
-import quikLogo from "../../assets/images/tecnologies/frontend/qwik.png";
+import astroLogo from "../../assets/images/tecnologies/frontend/astro.png";
 import expressLogo from "../../assets/images/tecnologies/backend/express.png";
 import djangoLogo from "../../assets/images/tecnologies/backend/django.png";
 import MySQLLogo from "../../assets/images/tecnologies/database/mysql.webp";
@@ -33,14 +29,10 @@ export default function () {
   return (
     <div className="technologies-container">
       <section className="technologies">
-        <h2 className="tech-section-title">
-          {text.es.currentStackTitle}
-        </h2>
+        <h2 className="tech-section-title">{text.es.currentStackTitle}</h2>
         <div className="tech-group">
           <h3 className="tech-name">Languages</h3>
-          <div
-            className="logos-group"
-          >
+          <div className="logos-group">
             <a
               href="https://www.javascript.com/"
               className="tech-link"
@@ -93,9 +85,7 @@ export default function () {
         </div>
         <div className="tech-group">
           <h3 className="tech-name">Front-end</h3>
-          <div
-            className="logos-group"
-          >
+          <div className="logos-group">
             <a
               href="https://nextjs.org/"
               className="tech-link"
@@ -112,13 +102,19 @@ export default function () {
             >
               <img src={reactLogo} alt="React" className="technology-logo" />
             </a>
+            <a
+              href="https://astro.build/"
+              className="tech-link"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src={astroLogo} alt="Astro" className="technology-logo" />
+            </a>
           </div>
         </div>
         <div className="tech-group">
           <h3 className="tech-name">Back-end</h3>
-          <div
-            className="logos-group"
-          >
+          <div className="logos-group">
             <a
               href="https://expressjs.com/"
               className="tech-link"
@@ -143,9 +139,7 @@ export default function () {
         </div>
         <div className="tech-group">
           <h3 className="tech-name">Database</h3>
-          <div
-            className="logos-group"
-          >
+          <div className="logos-group">
             <a
               href="https://www.mysql.com/"
               className="tech-link"
@@ -178,14 +172,11 @@ export default function () {
                 className="technology-logo"
               />
             </a>
-
           </div>
         </div>
         <div className="tech-group">
           <h3 className="tech-name">Tools</h3>
-          <div
-            className="logos-group"
-          >
+          <div className="logos-group">
             <a
               href="https://jestjs.io/"
               className="tech-link"
