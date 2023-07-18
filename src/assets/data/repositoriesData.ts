@@ -18,20 +18,20 @@ import WebpackLogo from '../../assets/images/tecnologies/tools/webpack.png'
 import SassLogo from '../../assets/images/tecnologies/tools/sass.png'
 // import threeJSLogo from "../../assets/images/tecnologies/tools/threejs.png";
 
-import MuseoPaleontologico from '../../assets/images/repos/museopaleontologico.jpg'
-import GoodTrail from '../../assets/images/repos/goodtrail.jpg'
-import MyMovieSite from "../../assets/images/repos/mymoviesite.jpg";
-import VideoManager from '../../assets/images/repos/videomanager.jpg'
-import GoodTrailDashboard from '../../assets/images/repos/goodtraildashboard.jpg'
-import TaskList from '../../assets/images/repos/tasklist.jpg'
-import Calculator from '../../assets/images/repos/calculator.jpg'
-import KittensApp from "../../assets/images/repos/kittensapp.jpg";
-import TatetiSolidJS from '../../assets/images/repos/tatetisolid.jpg'
-import freeCodeCampSim from '../../assets/images/repos/freecodecampsimulation.jpg'
-import MercadoLiebre from '../../assets/images/repos/mercadoliebre.jpg'
-import ClicksSpeedTest from "../../assets/images/repos/clickspeedtest.jpg";
-import ClickCounter from "../../assets/images/repos/clickcounter.jpg";
-import VueClickCounter from "../../assets/images/repos/vueclickcounter.jpg";
+import MuseoPaleontologico from '../../assets/images/repos/museopaleontologico.webp'
+import GoodTrail from '../../assets/images/repos/goodtrail.webp'
+import MyMovieSite from "../../assets/images/repos/mymoviesite.webp";
+import VideoManager from '../../assets/images/repos/videomanager.webp'
+import GoodTrailDashboard from '../../assets/images/repos/goodtraildashboard.webp'
+import TaskList from '../../assets/images/repos/tasklist.webp'
+import Calculator from '../../assets/images/repos/calculator.webp'
+import KittensApp from "../../assets/images/repos/kittensapp.webp";
+import TatetiSolidJS from '../../assets/images/repos/tatetisolid.webp'
+import freeCodeCampSim from '../../assets/images/repos/freecodecampsimulation.webp'
+import MercadoLiebre from '../../assets/images/repos/mercadoliebre.webp'
+import ClicksSpeedTest from "../../assets/images/repos/clickspeedtest.webp";
+import ClickCounter from "../../assets/images/repos/clickcounter.webp";
+import VueClickCounter from "../../assets/images/repos/vueclickcounter.webp";
 
 const repositoriesData = [
   {
