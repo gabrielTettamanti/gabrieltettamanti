@@ -31,7 +31,6 @@ export default function () {
       <section className="technologies">
         <h2 className="tech-section-title">{text.es.currentStackTitle}</h2>
         <div className="tech-group">
-          <h3 className="tech-name">Languages</h3>
           <div className="logos-group">
             <a
               href="https://www.javascript.com/"
@@ -84,7 +83,6 @@ export default function () {
           </div>
         </div>
         <div className="tech-group">
-          <h3 className="tech-name">Front-end</h3>
           <div className="logos-group">
             <a
               href="https://nextjs.org/"
@@ -113,7 +111,6 @@ export default function () {
           </div>
         </div>
         <div className="tech-group">
-          <h3 className="tech-name">Back-end</h3>
           <div className="logos-group">
             <a
               href="https://expressjs.com/"
@@ -138,7 +135,6 @@ export default function () {
           </div>
         </div>
         <div className="tech-group">
-          <h3 className="tech-name">Database</h3>
           <div className="logos-group">
             <a
               href="https://www.mysql.com/"
@@ -175,7 +171,6 @@ export default function () {
           </div>
         </div>
         <div className="tech-group">
-          <h3 className="tech-name">Tools</h3>
           <div className="logos-group">
             <a
               href="https://jestjs.io/"
