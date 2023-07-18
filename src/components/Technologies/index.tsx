@@ -14,7 +14,7 @@ import MySQLLogo from "../../assets/images/tecnologies/database/mysql.webp";
 import MongoDBLogo from "../../assets/images/tecnologies/database/mongodb.webp";
 import graphQLLogo from "../../assets/images/tecnologies/database/graphql.webp";
 import JestLogo from "../../assets/images/tecnologies/testing/jest.png";
-import TailwindLogo from "../../assets/images/tecnologies/styles/tailwind.png";
+import TailwindLogo from "../../assets/images/tecnologies/styles/tailwind.webp";
 import GitLogo from "../../assets/images/tecnologies/tools/git.png";
 import DockerLogo from "../../assets/images/tecnologies/tools/docker.png";
 import ViteLogo from "../../assets/images/tecnologies/tools/vite.png";
