@@ -11,7 +11,7 @@ import astroLogo from "../../assets/images/tecnologies/frontend/astro.png";
 import expressLogo from "../../assets/images/tecnologies/backend/express.webp";
 import djangoLogo from "../../assets/images/tecnologies/backend/django.webp";
 import MySQLLogo from "../../assets/images/tecnologies/database/mysql.webp";
-import MongoDBLogo from "../../assets/images/tecnologies/database/mongodb.png";
+import MongoDBLogo from "../../assets/images/tecnologies/database/mongodb.webp";
 import graphQLLogo from "../../assets/images/tecnologies/database/graphql.webp";
 import JestLogo from "../../assets/images/tecnologies/testing/jest.png";
 import TailwindLogo from "../../assets/images/tecnologies/styles/tailwind.png";
