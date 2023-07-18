@@ -3,11 +3,11 @@ import tsLogo from '../../assets/images/tecnologies/languages/typescript.png'
 // import pyLogo from "../../assets/images/tecnologies/languages/python.png";
 import cssLogo from '../../assets/images/tecnologies/languages/css.png'
 import htmlLogo from '../../assets/images/tecnologies/languages/html.png'
-import svelteLogo from "../../assets/images/tecnologies/frontend/svelte.png";
-import solidLogo from '../../assets/images/tecnologies/frontend/solid.png'
-import reactLogo from "../../assets/images/tecnologies/frontend/react.png";
-import vueLogo from "../../assets/images/tecnologies/frontend/vue.png";
-import nuxtLogo from "../../assets/images/tecnologies/frontend/nuxt.png";
+import svelteLogo from "../../assets/images/tecnologies/frontend/svelte.webp";
+import solidLogo from '../../assets/images/tecnologies/frontend/solid.webp'
+import reactLogo from "../../assets/images/tecnologies/frontend/react.webp";
+import vueLogo from "../../assets/images/tecnologies/frontend/vue.webp";
+import nuxtLogo from "../../assets/images/tecnologies/frontend/nuxt.webp";
 import expressLogo from '../../assets/images/tecnologies/backend/express.webp'
 import MySQLLogo from '../../assets/images/tecnologies/database/mysql.webp'
 import MongoDBLogo from '../../assets/images/tecnologies/database/mongodb.webp'
