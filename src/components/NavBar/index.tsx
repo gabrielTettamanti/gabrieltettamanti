@@ -16,7 +16,7 @@ function NavBar() {
             <h1 className="title-nav-bar">Gabriel Tettamanti</h1>
           </div>
           <div className="lang-switch">
-            <button
+            {/* <button
               className="lang-switch-button"
               onClick={() => setLang("en")}
             >
@@ -35,7 +35,7 @@ function NavBar() {
                 src={spanishFlag}
                 alt="ES"
               />
-            </button>
+            </button> */}
           </div>
         </nav>
         <div className="background-header-filling" />
