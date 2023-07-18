@@ -13,7 +13,7 @@ import djangoLogo from "../../assets/images/tecnologies/backend/django.webp";
 import MySQLLogo from "../../assets/images/tecnologies/database/mysql.webp";
 import MongoDBLogo from "../../assets/images/tecnologies/database/mongodb.webp";
 import graphQLLogo from "../../assets/images/tecnologies/database/graphql.webp";
-import JestLogo from "../../assets/images/tecnologies/testing/jest.png";
+import JestLogo from "../../assets/images/tecnologies/testing/jest.webp";
 import TailwindLogo from "../../assets/images/tecnologies/styles/tailwind.webp";
 import GitLogo from "../../assets/images/tecnologies/tools/git.png";
 import DockerLogo from "../../assets/images/tecnologies/tools/docker.png";
