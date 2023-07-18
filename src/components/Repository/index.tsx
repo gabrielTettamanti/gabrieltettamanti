@@ -36,7 +36,6 @@ export default (props: repositoriesData) => {
       <div className="repository-info">
         <h3 className="repository-title">{props.title}</h3>
         <p className="repository-detail">{props.description}</p>
-        <h4 className="repository-technologies-title">Tecnologías</h4>
         <div className="repository-technologies-container">
           {props.technologies.map((tech) => {
             return (
