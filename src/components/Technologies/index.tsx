@@ -15,10 +15,10 @@ import MongoDBLogo from "../../assets/images/tecnologies/database/mongodb.webp";
 import graphQLLogo from "../../assets/images/tecnologies/database/graphql.webp";
 import JestLogo from "../../assets/images/tecnologies/testing/jest.webp";
 import TailwindLogo from "../../assets/images/tecnologies/styles/tailwind.webp";
-import GitLogo from "../../assets/images/tecnologies/tools/git.png";
-import DockerLogo from "../../assets/images/tecnologies/tools/docker.png";
-import ViteLogo from "../../assets/images/tecnologies/tools/vite.png";
-import SassLogo from "../../assets/images/tecnologies/tools/sass.png";
+import GitLogo from "../../assets/images/tecnologies/tools/git.webp";
+import DockerLogo from "../../assets/images/tecnologies/tools/docker.webp";
+import ViteLogo from "../../assets/images/tecnologies/tools/vite.webp";
+import SassLogo from "../../assets/images/tecnologies/tools/sass.webp";
 
 import "./styles.css";
 

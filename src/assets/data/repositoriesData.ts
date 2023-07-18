@@ -12,11 +12,11 @@ import expressLogo from '../../assets/images/tecnologies/backend/express.webp'
 import MySQLLogo from '../../assets/images/tecnologies/database/mysql.webp'
 import MongoDBLogo from '../../assets/images/tecnologies/database/mongodb.webp'
 import BootstrapLogo from "../../assets/images/tecnologies/styles/bootstrap.webp";
-import GitLogo from '../../assets/images/tecnologies/tools/git.png'
-import ViteLogo from '../../assets/images/tecnologies/tools/vite.png'
-import WebpackLogo from '../../assets/images/tecnologies/tools/webpack.png'
-import SassLogo from '../../assets/images/tecnologies/tools/sass.png'
-// import threeJSLogo from "../../assets/images/tecnologies/tools/threejs.png";
+import GitLogo from '../../assets/images/tecnologies/tools/git.webp'
+import ViteLogo from '../../assets/images/tecnologies/tools/vite.webp'
+import WebpackLogo from '../../assets/images/tecnologies/tools/webpack.webp'
+import SassLogo from '../../assets/images/tecnologies/tools/sass.webp'
+// import threeJSLogo from "../../assets/images/tecnologies/tools/threejs.webp";
 
 import MuseoPaleontologico from '../../assets/images/repos/museopaleontologico.webp'
 import GoodTrail from '../../assets/images/repos/goodtrail.webp'
