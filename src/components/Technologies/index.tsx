@@ -1,10 +1,10 @@
 /* eslint-disable import/no-anonymous-default-export */
 
-import jsLogo from "../../assets/images/tecnologies/languages/javascript.png";
-import tsLogo from "../../assets/images/tecnologies/languages/typescript.png";
-import pyLogo from "../../assets/images/tecnologies/languages/python.png";
-import cssLogo from "../../assets/images/tecnologies/languages/css.png";
-import htmlLogo from "../../assets/images/tecnologies/languages/html.png";
+import jsLogo from "../../assets/images/tecnologies/languages/javascript.webp";
+import tsLogo from "../../assets/images/tecnologies/languages/typescript.webp";
+import pyLogo from "../../assets/images/tecnologies/languages/python.webp";
+import cssLogo from "../../assets/images/tecnologies/languages/css.webp";
+import htmlLogo from "../../assets/images/tecnologies/languages/html.webp";
 import nextLogo from "../../assets/images/tecnologies/frontend/next.webp";
 import reactLogo from "../../assets/images/tecnologies/frontend/react.webp";
 import astroLogo from "../../assets/images/tecnologies/frontend/astro.webp";
