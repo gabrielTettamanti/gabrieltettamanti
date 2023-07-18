@@ -1,8 +1,8 @@
 import './styles.css'
 import { inject } from '@vercel/analytics';
 
-// import ukFlag from "./../../assets/images/uk.png";
-// import spanishFlag from "./../../assets/images/spanish.png";
+// import ukFlag from "./../../assets/images/uk.webp";
+// import spanishFlag from "./../../assets/images/spanish.webp";
 
 function NavBar() {
   inject();
