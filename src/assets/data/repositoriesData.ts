@@ -8,7 +8,7 @@ import solidLogo from '../../assets/images/tecnologies/frontend/solid.png'
 import reactLogo from "../../assets/images/tecnologies/frontend/react.png";
 import vueLogo from "../../assets/images/tecnologies/frontend/vue.png";
 import nuxtLogo from "../../assets/images/tecnologies/frontend/nuxt.png";
-import expressLogo from '../../assets/images/tecnologies/backend/express.png'
+import expressLogo from '../../assets/images/tecnologies/backend/express.webp'
 import MySQLLogo from '../../assets/images/tecnologies/database/mysql.webp'
 import MongoDBLogo from '../../assets/images/tecnologies/database/mongodb.png'
 import BootstrapLogo from "../../assets/images/tecnologies/styles/bootstrap.webp";
