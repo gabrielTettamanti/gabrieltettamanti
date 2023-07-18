@@ -1,9 +1,5 @@
 /* eslint-disable react/jsx-no-target-blank */
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope, faBars } from "@fortawesome/free-solid-svg-icons";
-import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import "./styles.css";
-import { ToastContainer, toast } from "react-toastify";
 
 import "react-toastify/dist/ReactToastify.css";
 
