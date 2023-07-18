@@ -1,13 +1,11 @@
 /* eslint-disable import/no-anonymous-default-export */
-import React from "react";
 import "./styles.css";
 
 import UNLPLogo from "../../assets/images/education/unlp.webp";
-import DHLogo from "../../assets/images/education/digitalhouse.svg";
-import freeCodeCampLogo from "../../assets/images/education/freecodecamp.jpg";
-import HarvardLogo from "../../assets/images/education/harvard.png";
-import VueSchoolLogo from "../../assets/images/education/vueschool.svg";
-import myPhoto from "../../assets/images/me/myphoto.jpg";
+import DHLogo from "../../assets/images/education/digitalhouse.webp";
+import freeCodeCampLogo from "../../assets/images/education/freecodecamp.webp";
+import HarvardLogo from "../../assets/images/education/harvard.webp";
+import VueSchoolLogo from "../../assets/images/education/vueschool.webp";
 
 import text from "./../../assets/data/aboutmeTexts.json";
 
