@@ -1,6 +1,6 @@
 import jsLogo from '../../assets/images/tecnologies/languages/javascript.png'
 import tsLogo from '../../assets/images/tecnologies/languages/typescript.png'
-import pyLogo from "../../assets/images/tecnologies/languages/python.png";
+// import pyLogo from "../../assets/images/tecnologies/languages/python.png";
 import cssLogo from '../../assets/images/tecnologies/languages/css.png'
 import htmlLogo from '../../assets/images/tecnologies/languages/html.png'
 import svelteLogo from "../../assets/images/tecnologies/frontend/svelte.png";
@@ -16,22 +16,22 @@ import GitLogo from '../../assets/images/tecnologies/tools/git.png'
 import ViteLogo from '../../assets/images/tecnologies/tools/vite.png'
 import WebpackLogo from '../../assets/images/tecnologies/tools/webpack.png'
 import SassLogo from '../../assets/images/tecnologies/tools/sass.png'
-import threeJSLogo from "../../assets/images/tecnologies/tools/threejs.png";
+// import threeJSLogo from "../../assets/images/tecnologies/tools/threejs.png";
 
-import MuseoPaleontologico from '../../assets/images/repos/museopaleontologico.png'
-import GoodTrail from '../../assets/images/repos/goodtrail.png'
-import MyMovieSite from "../../assets/images/repos/mymoviesite.png";
-import VideoManager from '../../assets/images/repos/videomanager.png'
-import GoodTrailDashboard from '../../assets/images/repos/goodtraildashboard.png'
-import TaskList from '../../assets/images/repos/tasklist.png'
-import Calculator from '../../assets/images/repos/calculator.png'
-import KittensApp from "../../assets/images/repos/kittensapp.png";
-import TatetiSolidJS from '../../assets/images/repos/tatetisolid.png'
-import freeCodeCampSim from '../../assets/images/repos/freecodecampsimulation.png'
-import MercadoLiebre from '../../assets/images/repos/mercadoliebre.png'
-import ClicksSpeedTest from "../../assets/images/repos/clickspeedtest.png";
-import ClickCounter from "../../assets/images/repos/clickcounter.png";
-import VueClickCounter from "../../assets/images/repos/vueclickcounter.png";
+import MuseoPaleontologico from '../../assets/images/repos/museopaleontologico.jpg'
+import GoodTrail from '../../assets/images/repos/goodtrail.jpg'
+import MyMovieSite from "../../assets/images/repos/mymoviesite.jpg";
+import VideoManager from '../../assets/images/repos/videomanager.jpg'
+import GoodTrailDashboard from '../../assets/images/repos/goodtraildashboard.jpg'
+import TaskList from '../../assets/images/repos/tasklist.jpg'
+import Calculator from '../../assets/images/repos/calculator.jpg'
+import KittensApp from "../../assets/images/repos/kittensapp.jpg";
+import TatetiSolidJS from '../../assets/images/repos/tatetisolid.jpg'
+import freeCodeCampSim from '../../assets/images/repos/freecodecampsimulation.jpg'
+import MercadoLiebre from '../../assets/images/repos/mercadoliebre.jpg'
+import ClicksSpeedTest from "../../assets/images/repos/clickspeedtest.jpg";
+import ClickCounter from "../../assets/images/repos/clickcounter.jpg";
+import VueClickCounter from "../../assets/images/repos/vueclickcounter.jpg";
 
 const repositoriesData = [
   {
