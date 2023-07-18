@@ -1,11 +1,6 @@
 import "./styles.css";
 
-import UNLPLogo from "../../assets/images/education/unlp.webp";
-import DHLogo from "../../assets/images/education/digitalhouse.svg";
-import freeCodeCampLogo from "../../assets/images/education/freecodecamp.jpg";
-import HarvardLogo from "../../assets/images/education/harvard.png";
-import VueSchoolLogo from "../../assets/images/education/vueschool.svg";
-import myPhoto from "../../assets/images/me/myphoto.jpg";
+import myPhoto from "../../assets/images/me/myphoto.webp";
 
 import text from "../../assets/data/aboutmeTexts.json";
 
